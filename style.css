@@ -1,0 +1,249 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/top-banner.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    padding: 15px 5%;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 45px;
+    position: relative;
+    cursor: pointer;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #120E43;
+    
+
+
+}
+ul li::after{
+    content: '';
+    height: 3.5px;
+    width: 0%;
+    position: absolute;
+    transition: 0.6s;
+    background-color: #DDD101;
+    left: 0;
+    bottom: -4px;
+
+}
+ul li:hover::after{
+    width: 100%;
+}
+ul li a:hover{
+    color:#B4161B;
+}
+.header{
+    background-image: url(img/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+    
+}
+.hero{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+.one{
+    flex-basis: 40%;
+    
+   
+    
+    
+    
+    
+
+}
+h1{
+    font-size: 55px;
+    color: #8D3DAF;
+    font-family: 'Roboto', sans-serif;
+}
+h1 span{
+color: #E07C24;
+}
+h2{
+    font-size: 40px;
+    color: #C7C11A;
+}
+.head{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #120E43;
+    font-style: italic;
+    font-weight: 500;
+}
+.btn{
+    margin-top: 15px;
+    padding: 12px 15px;
+    background-color: #ff7979;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #f9ca24;
+    
+}
+.btn a:hover{
+    color: #fff;
+}
+.middle{
+    display: flex;
+    background-image: url(img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.female{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+#me{
+    color: #E07C24;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.text{
+ font-size: 20px;
+ text-align: center;
+ font-family: 'Dancing Script', cursive;
+ font-weight: 550;
+ color: #8D3DAF;
+ 
+}
+.content{
+   text-align: center;
+
+}
+#recipies{
+    margin: 20px 0;
+    color: #ff7979;
+}
+.food{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+
+}
+.food img{
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    
+    
+}
+.three{
+    flex-basis: 23%;
+    text-align: center;
+   
+    
+}
+h3{
+    color: #E07C24;
+    text-align: center;
+}
+.para{
+    color: #6A1B4D;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 50px 15px grey;
+    width: 80%;
+    margin: 50px auto;
+}
+.box_all{
+ margin: 20px 90px;
+ text-align: center;
+ box-sizing: border-box;
+ 
+}
+h4{
+    font-size: 45px;
+    color: #6A1B4D;
+}
+h6{
+    font-size: 20px;
+    color: #3DBE29;
+}
+.footer{
+    width: 100%;
+    background-color: #120E43;
+    height:80px;
+    text-align: center;
+    
+   
+}
+h2 span{
+    color: #B4161B;
+}
+.footer p{
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    .container{
+        
+    }
+  }
